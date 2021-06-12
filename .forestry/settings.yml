@@ -25,7 +25,7 @@ sections:
   create: all
   match: "**/*"
 - type: document
-  path: sites/config.toml
+  path: site/config.toml
   label: Config
 upload_dir: static/uploads
 public_path: "/uploads"
