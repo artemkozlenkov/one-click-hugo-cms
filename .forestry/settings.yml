@@ -40,5 +40,5 @@ build:
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: build:preview
+  instant_preview_command: yarn build:preview
 version: 0.81.0
