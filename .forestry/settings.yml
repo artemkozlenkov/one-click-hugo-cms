@@ -37,8 +37,8 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.81.0
   preview_output_directory: dist
-  install_dependencies_command: 'npm install --save-dev webpack webpack-dev-server
-    webpack-cli cross-env run-p rimraf '
+  install_dependencies_command: 'npm install --save-dev webpack-dev-server webpack-cli
+    cross-env run-p rimraf '
   preview_docker_image: forestryio/hugo:node12
   mount_path: "/srv"
   working_dir: "/srv"
